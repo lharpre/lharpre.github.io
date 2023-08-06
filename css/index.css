@@ -3,6 +3,10 @@
     font-family: 'Permanent Marker';
     src: url('fonts/PermanentMarker.ttf');
 }
+@font-face {
+    font-family: 'Amatic';
+    src: url('fonts/AmaticSC-Bold.ttf');
+}
 
 /** Initializing CSS **/
 * {
@@ -14,28 +18,44 @@
 html, body {
     height: 100%;
     width: 100%;
-    background: black;
+    background: rgb(240,240,240);
 }
 
 #pg-main-cntr {
     display: flex;
     margin: 0 auto;
-    width: 1240px;
+    width: 100%;
 }
 
 header {
     display: flex;
     flex-direction: column;
+    padding-bottom: 10px;
     width: 100%;
 }
 
+.profile-pic {
+    margin: 25px auto 15px auto;
+    height: 180px;
+    width: 180px;
+}
+
 h1,h2 {
-    color: white;
+    color: rgb(25,25,25);
     text-align: center;
 }
 
 h1 {
+    text-shadow: 2px 2px 2px rgb(123, 143, 143);
     font-family: 'Permanent Marker';
     font-size: 3rem;
 }
+
+h2 {
+    font-size: 2rem;
+    font-family: 'Amatic';
+}
+
+
+/** MEDIA QUERIES FOR RESPONSIVE DESIGN **/
 
