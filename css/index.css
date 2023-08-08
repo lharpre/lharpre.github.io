@@ -83,9 +83,18 @@ footer {
     margin: 0 auto 20px auto;
     background-color: white;
     height: 80px;
-    width: 500px;
-    border: 2px solid grey;
+    width: 400px;
+    border: 1.5px solid grey;
+    box-shadow: 0px 0px 10px darkgrey;
     border-radius: 25px;
+}
+
+a {
+    display: flex;
+    margin: auto;
+    background-color: white;
+    height: 60px;
+    width: 60px;
 }
 
 /** MEDIA QUERIES FOR RESPONSIVE DESIGN **/
